@@ -1,0 +1,50 @@
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+
+    &__img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+        &:not(:last-child){
+            margin-right: 3.5rem;
+        }     
+    }
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        color: $color-white;
+        position: relative;
+        letter-spacing: 0.1rem;
+    }
+
+    &__link::after{
+        display: block;
+        content: "";
+        border-bottom: 3px solid $color-grey-light-1;
+        width: 0%;
+        transition:  width 0.2s;
+    }
+
+    &__link:hover::after{
+        width: 100%;
+    }
+
+}

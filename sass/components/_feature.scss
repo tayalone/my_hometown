@@ -1,0 +1,16 @@
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -7rem;
+
+    &__box {
+        min-height: 20rem;
+        padding: 1rem;
+
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+    }
+}
