@@ -38,3 +38,21 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.section-food {
+    background-color: rgba($color-primary-light, 1);
+    padding: 8rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-travel {
+    background-color: rgba($color-white, 1);
+    padding: 8rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

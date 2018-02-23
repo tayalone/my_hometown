@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/ionicons.min.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Kanit:100,300,400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
@@ -17,10 +18,11 @@
                 <img src="http://via.placeholder.com/200x200" alt="" class="nav__img">
             </a>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link"> item 1  </a></li>
-                <li class="nav__item"><a href="#" class="nav__link"> item 2  </a></li>
-                <li class="nav__item"><a href="#" class="nav__link"> item 3  </a></li>
-                <li class="nav__item"><a href="#" class="nav__link"> item 4  </a></li>
+                <li class="nav__item"><a href="#feature" class="nav__link"> What We Have ?  </a></li>
+                <li class="nav__item"><a href="#gallery" class="nav__link">  Gallery </a></li>
+                <li class="nav__item"><a href="#traditional" class="nav__link"> Traditional  </a></li>
+                <li class="nav__item"><a href="#food" class="nav__link"> Food  </a></li>
+                <li class="nav__item"><a href="#travel" class="nav__link"> Where Are we ? </a></li>
             </ul>
         </nav>
         <div class="hero-box">
@@ -28,12 +30,12 @@
                 <span class="heading__primary--main">ชุมแสง </span>
                 <span class="heading__primary--sub">นครสวรรค์</span>
             </h1>
-            <a href="#" class="btn btn__full">What We Have ?</a>
-            <a href="#" class="btn btn__ghost">How to visit</a>
+            <a href="#feature" class="btn btn__full">What We Have ?</a>
+            <a href="#travel" class="btn btn__ghost">How to visit</a>
         </div>
     </header>
     <body>
-        <section class="section-feature row">
+        <section class="section-feature row" id="feature">
             <h2 class="heading__secondary u__margin-b-medium">
                 What We Have ?
             </h2>
@@ -69,7 +71,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-gallery">
+        <section class="section-gallery" id="gallery">
             <figure>
                 <img src="http://via.placeholder.com/300x400" alt="pic1">
             </figure>
@@ -95,7 +97,7 @@
                 <img src="http://via.placeholder.com/300x400" alt="pic4">
             </figure>
         </section>
-        <section class="section-traditional row">
+        <section class="section-traditional row" id="traditional">
             <h2 class="heading__secondary u__margin-b-medium">
                 Mix Traditional
             </h2>
@@ -112,6 +114,235 @@
                 </div>
             </div>
         </section>
+
+        <section class="section-food row" id="food">
+            <h2 class="heading__secondary u__margin-b-medium">
+                Awsome Food
+            </h2>
+            <div class="food">
+                <div class="food__box">
+                    <div class="food__card">
+                            <div class="food__card--front">
+                                <img class="food__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World">
+                            </div>
+                            <div class="food__card--slide">
+                                <ul>
+                                    <li class="food-n u__margin-b-small">Food Name</li>
+                                    <li class="food-p u__margin-b-small">Price</li>
+                                    <li class="food-star">
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="food__box">
+                    <div class="food__card">
+                            <div class="food__card--front">
+                                <img class="food__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World">
+                            </div>
+                            <div class="food__card--slide">
+                                <ul>
+                                    <li class="food-n u__margin-b-small">Food Name</li>
+                                    <li class="food-p u__margin-b-small">Price</li>
+                                    <li class="food-star">
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="food__box">
+                    <div class="food__card">
+                            <div class="food__card--front">
+                                <img class="food__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World">
+                            </div>
+                            <div class="food__card--slide">
+                                <ul>
+                                    <li class="food-n u__margin-b-small">Food Name</li>
+                                    <li class="food-p u__margin-b-small">Price</li>
+                                    <li class="food-star">
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="food__box">
+                    <div class="food__card">
+                            <div class="food__card--front">
+                                <img class="food__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World">
+                            </div>
+                            <div class="food__card--slide">
+                                <ul>
+                                    <li class="food-n u__margin-b-small">Food Name</li>
+                                    <li class="food-p u__margin-b-small">Price</li>
+                                    <li class="food-star">
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="food__box">
+                    <div class="food__card">
+                            <div class="food__card--front">
+                                <img class="food__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World">
+                            </div>
+                            <div class="food__card--slide">
+                                <ul>
+                                    <li class="food-n u__margin-b-small">Food Name</li>
+                                    <li class="food-p u__margin-b-small">Price</li>
+                                    <li class="food-star">
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="food__box">
+                    <div class="food__card">
+                            <div class="food__card--front">
+                                <img class="food__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World">
+                            </div>
+                            <div class="food__card--slide">
+                                <ul>
+                                    <li class="food-n u__margin-b-small">Food Name</li>
+                                    <li class="food-p u__margin-b-small">Price</li>
+                                    <li class="food-star">
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                        <i class="feature__icon ion-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-travel row" id="travel">
+            <h2 class="heading__secondary u__margin-b-medium">
+                We are Here !!
+            </h2>
+            <div id="map" class="travel__map u__margin-b-small"></div>
+            <div class="travel">
+                <div class="travel__box">
+                    <i class="feature__icon ion-android-train u__margin-b-small">รถไฟ</i>
+                    <ul>
+                        <li>โดยสารที่ไหน</li>
+                        <li>ระยะเวลา</li>
+                        <li>ค่าใช้จ่าย</li>
+                    </ul>
+                </div>
+                <div class="travel__box">
+                    <i class="feature__icon ion-android-car u__margin-b-small">รถตู้</i>
+                    <ul>
+                        <li>โดยสารที่ไหน</li>
+                        <li>ระยะเวลา</li>
+                        <li>ค่าใช้จ่าย</li>
+                    </ul>
+                </div>
+                <div class="travel__box">
+                    <i class="feature__icon ion-model-s u__margin-b-small">รถส่วนตัว</i>
+                    <ul>
+                        <li>โดยสารที่ไหน</li>
+                        <li>ระยะเวลา</li>
+                        <li>ค่าใช้จ่าย</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="top">
+                <ul class="footer__nav">
+                    <li ><a href="#feature" class="nav__link"> What We Have ?  </a></li>
+                    <li ><a href="#gallery" class="nav__link"> Gallery  </a></li>
+                    <li ><a href="#traditional" class="nav__link"> Traditional  </a></li>
+                    <li ><a href="#food" class="nav__link"> Food  </a></li>
+                    <li ><a href="#travel" class="nav__link"> Where Are we ?  </a></li>
+                </ul>
+                <ul class="footer__social">
+                    <li ><a href="#" class="footer__social--link facebook"> facebook  </a></li>
+                    <li ><a href="#" class="footer__social--link twitter"> twitter  </a></li>
+                    <li ><a href="#" class="footer__social--link google"> google  </a></li>
+                    <li ><a href="#" class="footer__social--link instragam"> instragam  </a></li>
+                </ul>
+            </div>
+            <div class="down">
+                &copy; copyright by Panupong Rong-O.
+            </div>
+        </footer>
     </body>
-</body>
+    <script>
+            function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(15.8942141, 100.3105352),
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh_ABlYWNVNXm-AhBlVfl-b8PomLNHZ3g&callback=myMap"></script>
+    <script>
+        // Select all links with hashes
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+        // On-page links
+        if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+        && 
+        location.hostname == this.hostname
+        ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+            scrollTop: target.offset().top
+            }, 1000, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+            } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+            };
+            });
+        }
+        }
+    });
+    </script>
+    
 </html>
